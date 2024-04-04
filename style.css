@@ -65,7 +65,7 @@ ol.calendar li:nth-child(4), ol.calendar li:nth-child(5) {
     color: white;
     background-color: pink;
     text-align: center;
-    top: 100px;
+    top: 500px;
     left: 100px;
     animation: pulsiraj 1s infinite;
     animation-direction: alternate;
