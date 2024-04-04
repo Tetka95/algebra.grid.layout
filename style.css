@@ -14,3 +14,36 @@ body {
     margin: 2rem;
     font: 12px system-ui;
 }
+
+.calendar-wrapper {
+    max-width: 289px;
+    font: 100% system-ui;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.day-name {
+    background: lightpink;
+}
+
+.first-day {
+    grid-column-start: 4;
+}
+
+h1 {
+    text-align: center;
+}
+
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    padding: 2px;
+}
